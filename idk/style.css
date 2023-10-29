@@ -230,3 +230,16 @@
 	top: 10px;
 	right: 0;
 }
+
+.course-section-title {
+	font-weight: 600;
+	font-size: 70px;
+	color: #1a1a1a;
+	margin: 60px 0;
+}
+
+.course-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
