@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
   <title>Сайт визитка</title>
 </head>
-
 <body>
   <header class="header">
     <div class="container">
@@ -70,9 +68,6 @@
             </div>
 
             <div class="audio-author">
-                <div>
-                    
-                </div>
               <div>
                 <h2 class="about-title">Testimonial</h2>
                 <span class="about-subtitle">Tom Hope</span>
@@ -92,20 +87,74 @@
 
   <main class="main-content">
     <div class="container">
-        <section class="courses">
-            <h1 class="course-section-title">Popular courses <br> this week</h1>
-            <section class="course-row">
-                Ряд 1
-            </section>
-            <section class="course-eow">
-                Ряд 2
-            </section>
+      <section class="courses">
+        <h1 class="course-section-title">Popular Courses <br> this week</h1>
+
+        <section class="course-row">
+          <div class="course-card card-big">
+            <div class="img-container img-card-1">
+              <span class="btn-time">15 mins</span>
+              <span class="btn-raiting">
+                4.8
+                <img src="/img/icons/star.svg" width="15" height="15" alt="">
+              </span>
+            </div>
+
+            <div class="info-container">
+              <h4 class="course-category">PHOTOGRAPHY</h4>
+
+              <h2 class="course-title">Create an attractive product photography</h2>
+
+              <p class="course-desc">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna.
+              </p>
+            </div>
+          </div>
+
+          <div class="course-card card-small">
+            <div class="img-container img-card-2">
+              <span class="btn-time">15 mins</span>
+              <span class="btn-raiting">
+                4.8
+                <img src="/img/icons/star.svg" width="15" height="15" alt="">
+              </span>
+            </div>
+
+            <div class="info-container">
+              <h4 class="course-category">DESIGN</h4>
+
+              <h2 class="course-title">User Interface Design</h2>
+
+              <p class="course-desc">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna.
+              </p>
+            </div>
+          </div>
         </section>
+
+        <section class="course-row">
+          Второй ряд
+        </section>
+
+      </section> <!-- конец section.courses -->
     </div>
   </main>
 
   <script src="wavesurfer.js"></script>
   <script src="media.js"></script>
 </body>
-
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
