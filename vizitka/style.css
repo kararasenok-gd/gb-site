@@ -1,341 +1,497 @@
-@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-  max-width: 1080px;
-  margin: 0 auto;
+	max-width: 1080px;
+	margin: 0 auto;
 }
 
 /* HEADER */
 .header {
-  background-color: #1A1A1A;
-  padding-top: 36px;
-  padding-bottom: 200px;
+	background-color: #1a1a1a;
+	padding-top: 36px;
+	padding-bottom: 200px;
 }
 
 .navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .logo {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: #1A1A1A;
-  font-weight: bold;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #1a1a1a;
+	font-weight: bold;
 }
 
 .navigation-holder {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-evenly;
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-evenly;
 }
 
 .nav-links a {
-  text-decoration: none;
-  color: #D1D1D1;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 13px;
+	text-decoration: none;
+	color: #d1d1d1;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 13px;
 }
 
 .header-title {
-  margin-top: 110px;
-  margin-bottom: 80px;
-  position: relative;
+	margin-top: 110px;
+	margin-bottom: 80px;
+	position: relative;
 }
 
 .header-subtitle-text {
-  display: inline-block;
-  border-left: 1px solid #8C8C8C;
-  padding: 8px 0 8px 20px;
-  color: #8C8C8C;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 1.5px;
-  margin-bottom: 13px;
+	display: inline-block;
+	border-left: 1px solid #8c8c8c;
+	padding: 8px 0 8px 20px;
+	color: #8c8c8c;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1.5px;
+	margin-bottom: 13px;
 }
 
 .header-title-text {
-  font-size: 90px;
-  font-weight: bold;
-  color: #fff;
-  max-width: 620px;
-  line-height: 1;
+	font-size: 90px;
+	font-weight: bold;
+	color: #fff;
+	max-width: 620px;
+	line-height: 1;
 }
 
 .join {
-  background-color: #FEBE02;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 110px;
-  height: 110px;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  text-decoration: none;
-  color: #1A1A1A;
-  font-weight: bold;
-  border-radius: 6px;
+	background-color: #febe02;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 110px;
+	height: 110px;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	text-decoration: none;
+	color: #1a1a1a;
+	font-weight: bold;
+	border-radius: 6px;
 }
 
 .header-info-block {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .card-info {
-  max-width: 361px;
+	max-width: 361px;
 }
 
 .card-info-img {
-  display: flex;
+	display: flex;
 }
 
 .info-title {
-  font-size: 20px;
-  font-weight: bold;
-  color: #fff;
-  letter-spacing: 0.5px;
-  margin-top: 15px;
-  margin-bottom: 4px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 0.5px;
+	margin-top: 15px;
+	margin-bottom: 4px;
 }
 
 .info-subtitle {
-  font-size: 13px;
-  color: #8C8C8C;
-  font-weight: bold;
-  letter-spacing: 1.5px;
-  display: block;
+	font-size: 13px;
+	color: #8c8c8c;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	display: block;
 }
 
 .about-subtitle-text {
-  display: inline-block;
-  border-left: 1px solid #fff;
-  padding: 8px 0 8px 20px;
-  color: #fff;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 1.5px;
-  margin-bottom: 13px;
+	display: inline-block;
+	border-left: 1px solid #fff;
+	padding: 8px 0 8px 20px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1.5px;
+	margin-bottom: 13px;
 }
 
 .about-desc {
-  color: #D1D1D1;
-  max-width: 240px;
-  font-size: 14px;
-  line-height: 1.8;
+	color: #d1d1d1;
+	max-width: 240px;
+	font-size: 14px;
+	line-height: 1.8;
 }
 
 .audio-holder {
-  width: 540px;
+	width: 540px;
 }
 
 .audio-block {
-  background-color: #242424;
-  display: flex;
-  margin-top: 61px;
+	background-color: #242424;
+	display: flex;
+	margin-top: 61px;
 }
 
 .audio-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  position: relative;
-  padding: 0 34px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+	position: relative;
+	padding: 0 34px;
 }
 
 .play-btn {
-  display: flex;
-  background-color: blue;
-  width: 40px;
-  height: 40px;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+	display: flex;
+	background-color: blue;
+	width: 40px;
+	height: 40px;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 
 .about-title {
-  font-size: 20px;
-  font-weight: bold;
-  color: #fff;
-  letter-spacing: 0.5px;
-  margin-top: 15px;
-  margin-bottom: 4px;
-  text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 0.5px;
+	margin-top: 15px;
+	margin-bottom: 4px;
+	text-align: center;
 }
 
 .about-subtitle {
-  font-size: 13px;
-  color: #8C8C8C;
-  font-weight: bold;
-  letter-spacing: 1.5px;
-  text-align: center;
-  display: block;
+	font-size: 13px;
+	color: #8c8c8c;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	text-align: center;
+	display: block;
 }
 
 .audio-detail {
-  flex: 1;
+	flex: 1;
 }
 
 .control {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 
 .control i {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.25rem;
-  background-color: blue;
-  color: white;
-  cursor: pointer;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.25rem;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
 }
 
 .audio-author {
-  display: flex;
-  justify-content: center;
-  position: relative;
+	display: flex;
+	justify-content: center;
+	position: relative;
 }
 
 .time {
-  color: #fff;
-  position: absolute;
-  top: 10px;
-  right: 0;
+	color: #fff;
+	position: absolute;
+	top: 10px;
+	right: 0;
 }
 
 /* MAIN CONTENT */
 
 .course-section-title {
-  font-weight: 600;
-  font-size: 70px;
-  color: #1A1A1A;
-  margin: 60px 0;
+	font-weight: 600;
+	font-size: 70px;
+	color: #1a1a1a;
+	margin: 60px 0;
 }
 .course-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 60px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
 }
 
 .card-big {
-  width: 540px;
+	width: 540px;
 }
 .card-small {
-  width: 360px;
+	width: 360px;
 }
 
 .img-container {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 360px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  padding-bottom: 20px;
-  padding-left: 20px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 360px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	padding-bottom: 20px;
+	padding-left: 20px;
 }
-.img-card-1 {background-image: url(/img/card-1.png);}
+
+.img-card-1 {
+	background-image: url(./img/card-1.png);
+}
 
 .btn-time {
-  background-color: #fff;
-  border-radius: 5px;
-  color: #111;
-  padding: 6px 12px;
-  display: inline-block;
-  margin-right: 8px;
+	background-color: #fff;
+	border-radius: 5px;
+	color: #111;
+	padding: 6px 12px;
+	display: inline-block;
+	margin-right: 8px;
 }
+
 .btn-raiting {
-  width: 77px;
-  background-color: #111;
-  border-radius: 5px;
-  color: #fff;
-  padding: 6px 0px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-evenly;
+	width: 77px;
+	background-color: #111;
+	border-radius: 5px;
+	color: #fff;
+	padding: 6px 0px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-evenly;
 }
 
 .course-category {
-  font-size: 13px;
-  letter-spacing: 2px;
-  color: #BABABA;
-  font-weight: 400;
-  margin: 18px 0;
+	font-size: 13px;
+	letter-spacing: 2px;
+	color: #bababa;
+	font-weight: 400;
+	margin: 18px 0;
 }
 .course-title {
-  font-size: 35px;
-  font-weight: bold;
-  letter-spacing: 0.3px;
-  color: #1A1A1A;
-  margin-bottom: 20px;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 0.3px;
+	color: #1a1a1a;
+	margin-bottom: 20px;
 }
 .course-desc {
-  font-size: 16px;
-  font-weight: 400;
-  color: #767676;
-  line-height: 1.7;
-  letter-spacing: 0.5px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #767676;
+	line-height: 1.7;
+	letter-spacing: 0.5px;
 }
+
+.img-card-2 {
+	background-image: url(./img/card-2.png);
+}
+
+.img-card-3 {
+	background-image: url(./img/card-3.png);
+}
+
+.img-card-4 {
+	background-image: url(./img/card-4.png);
+}
+
+/* FOOTER */
 
 .footer {
-  background-color: #f5f6f8;
-  padding: 60px 0;
+	background-color: #f5f6f8;
+	padding: 60px 0;
 }
-
-.courses-info-title {
-  font-weight: 600;
-  font-size: 70px;
-  color: #1A1A1A;
-  padding-bottom: 40px;
+.course-info-title {
+	font-weight: 600;
+	font-size: 70px;
+	color: #1a1a1a;
+	padding-bottom: 40px;
 }
 
 .footer-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #939495;
-  padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #939495;
+	padding: 30px 0;
 }
-
 .left-block {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
-
 .course-number {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 25px;
-  color: #a2a2a4;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	color: #a2a2a4;
 }
 
-.img-card-2 {background-image: url(/img/card-2.png);}
+.course-block {
+	margin-left: 60px;
+	line-height: 1.5;
+}
+.course-name {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	letter-spacing: 0.8px;
+	color: #000000;
+}
+.course-count {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	color: #9a9a9b;
+}
+
+.footer-row:last-child {
+	border-bottom: none;
+}
+
+.mob-btn {
+	display: none;
+}
+
+@media (max-width: 1120px) {
+	.container {
+		padding: 0 20px;
+	}
+}
+
+@media (max-width: 992px) {
+	/* Для аудиоблока */
+	.header-info-block {
+		flex-direction: column;
+	}
+	.card-about {
+		align-self: flex-end;
+		margin-top: 60px;
+	}
+	.audio-container {
+		order: -1;
+	}
+
+	/* Для основного раздела */
+	.course-row {
+		flex-wrap: wrap;
+		margin-bottom: 0;
+	}
+	.course-card {
+		display: flex;
+		margin-bottom: 60px;
+	}
+	.card-big,
+	.card-small {
+		width: 100%;
+	}
+	.img-container,
+	.info-container {
+		width: 50%;
+	}
+	.img-card-1,
+	.img-card-3 {
+		margin-right: 40px;
+	}
+	.img-card-2,
+	.img-card-4 {
+		order: 2;
+		margin-left: 40px;
+	}
+}
+
+@media (max-width: 756px) {
+	/* Для основного раздела */
+	.course-card {
+		flex-direction: column;
+	}
+	.img-card-1,
+	.img-card-3,
+	.img-card-2,
+	.img-card-4 {
+		margin: 0;
+	}
+	.img-container,
+	.info-container {
+		width: 100%;
+	}
+	.img-card-2,
+	.img-card-4 {
+		order: -1;
+	}
+}
+
+@media (max-width: 578px) {
+	/* Для меню */
+	.navigation-holder {
+		display: none;
+	}
+	.mob-btn {
+		display: inline-block;
+		text-decoration: none;
+		font-size: 60px;
+		color: #fff;
+	}
+
+	/* Заголовок в шапке */
+	.header-title-text {
+		font-size: 60px;
+	}
+
+	/* Кнопка Join */
+	.join {
+		display: none;
+	}
+
+	/* Изображение девушки */
+	.card-info-img {
+		max-width: 100%;
+	}
+
+	/* Для аудиоблока */
+	.audio-holder,
+	.card-about {
+		width: 100%;
+	}
+	.audio-block img {
+		display: none;
+	}
+	.audio-container {
+		padding: 0 42px 0 0;
+	}
+	.control i {
+		height: 48px;
+	}
+
+	/* Для футера */
+	.course-name {
+		font-size: 24px;
+	}
+}
