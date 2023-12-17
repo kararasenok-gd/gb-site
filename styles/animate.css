@@ -1,21 +1,24 @@
-.bebra {
+.anim {
     background-color: black;
     width: 250px;
     height: 250px;
 }
 
-.bebra h1 {
+.anim h1 {
     color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.bebra a {
+.anim a {
     color: white;
 }
 
-.bebra:hover {
-    animation: clr 2s infinite linear;
+.anim:hover {
+    animation: clr 1s infinite cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.anim2:hover {
+    animation: clr2 1.1s infinite cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
 @keyframes clr {
@@ -26,9 +29,40 @@
     50% {
         color: black;
         background-color: white;
+        width: 100px;
+        height: 75px;
+    }
+    75% {
+        width: 2000px;
+        height: 500px;
     }
     100% {
         color: white;
         background-color: black;
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@keyframes clr2 {
+    0% {
+        color: white;
+        background-color: black;
+    }
+    50% {
+        color: black;
+        background-color: white;
+        width: 100px;
+        height: 75px;
+    }
+    75% {
+        width: 3000px;
+        height: 500px;
+    }
+    100% {
+        color: white;
+        background-color: black;
+        width: 250px;
+        height: 250px;
     }
 }

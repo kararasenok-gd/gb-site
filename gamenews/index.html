@@ -11,7 +11,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
   <!-- Свой файл стилей -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
   <title>Document</title>
 </head>
 
@@ -22,10 +22,11 @@
     <nav class="navbar navbar-expand-lg menu-bg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="./img/logo.svg" width="86" height="86" alt="">
+          <img class="logo" src="./img/logo.svg" width="86" height="86" alt="">
         </a>
-        <button class="navbar-toggler menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+        <button class="navbar-toggler menu-btn" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Переключатель навигации">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
@@ -37,32 +38,56 @@
         </div>
       </div>
     </nav>
-    
+
   </div>
 
-  <div class="container">
-
-    <!-- <nav class="navbar navbar-expand-lg">
+  <main>
+    <section class="main-content">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="./img/logo.svg" width="86" height="86" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-          <div class="navbar-nav navigation">
-            <a class="nav-link text-white fs-5" href="#">Dota 2</a>
-            <a class="nav-link text-white fs-5 mx-4" href="#">Fortnite</a>
-            <a class="nav-link text-white fs-5" href="#">GTA 5</a>
+        <div class="row">
+          <div class="col-xxl-7 col-xl-6 col-lg-6 col-md-12">
+            <!-- Колонка для блока с текстом -->
+            <div class="hero-section pb-5">
+              <h1 class="hero-title text-white m-0">Удивитительный мир <br> компьютерных игр</h1>
+
+              <p class="hero-desc text-white my-5">Познакомьтесь с самыми популярными среди <br> геймеров онлайн-играми.
+                Узнайте, что нового <br> происходит в виртуальном мире.
+              </p>
+
+              <a href="/" class="btn btn-purple text-white">Узнать больше</a>
+            </div>
+          </div>
+
+          <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-12">
+            <!-- Колонка для карточек с играми -->
+            <div class="card-games d-flex flex-column">
+              <div class="first-card-row d-flex justify-content-between">
+                <div class="gta-img">
+                  <img src="./img/gta.png" alt="">
+                </div>
+                <div class="fortnite-img">
+                  <img src="./img/fort.png" alt="">
+                </div>
+              </div>
+              <div class="dota-img mt-4">
+                <img src="./img/dota.png" alt="">
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </nav> -->
 
-  </div>
+    </section>
 
+  </main>
+
+  <footer>
+    <div class="footer-content container d-flex justify-content-center mt-5 pb-4">
+      <a href="https://t.me/logovo_amogusov" class="text-white footer-link">Телеграмм</a>
+      <a href="https://vk.com/logovo_amogusov" class="text-white footer-link">Вконтакте</a>
+      <p class="text-white footer-link">Инстаграмм (Нету)</p>
+    </div>
+  </footer>
 
 
   <!-- Bootstrap JS -->
