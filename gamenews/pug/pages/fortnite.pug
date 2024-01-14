@@ -1,0 +1,54 @@
+extends ../layouts/pages-layout
+block title 
+  - var title ="Дота 2"
+block content
+  header
+    .fortnite-box
+      .container-xl.p-0
+        .container
+          .row
+            .col-xxl-6.col-xl-6.col-lg-6.col-md-12
+              // Колонка для блока с текстом
+              .hero-section.pt-5
+                h1.hero-title.text-white.m-0 Fortnite
+                p.hero-desc.text-white.my-5
+                  | Fortnite — компьютерная многопользовательская командная игра жанра стратегия в реальном времени с элементами компьютерной ролевой игры, реализация известной карты fortnite для игры Warcraft III в отдельном клиенте.
+                p.hero-desc.text-white
+                  | В игре участвуют две команды по пять человек. Одна команда играет за светлую сторону, другая — за тёмную. Каждый игрок управляет одним героем, каждый из которых обладает особыми навыками и умениями.
+      .img-mobile
+        img(src='./img/pic/fortnite-big.png' alt='')
+  main
+    section.gallery.pt-5
+      .container-xl.p-0
+        .container
+          h1.gallery-title Галерея
+          // Swiper
+          .swiper.mySwiper
+            .swiper-wrapper
+              .swiper-slide
+                img(src='./img/pic/slider/fortnite-slide-1.png' alt='')
+              .swiper-slide
+                img(src='./img/pic/slider/fortnite-slide-2.png' alt='')
+            .swiper-button-next
+            .swiper-button-prev
+    section.articles.py-5
+      .container-xl.p-0
+        .container
+          h1.gallery-title Статьи
+          .row
+            .col-md-4
+              .card
+                .card-body
+                  img.card-img-top.mb-4(src='./img/pic/articles/fortnite-article-1.png' alt='...')
+                  h5.card-title Рецензия на fortnite: Dragonʼs Blood. 
+                  p.card-text
+                    | Каким получился мультсериал по Fortnite от авторов «Легенды о Корре» 
+                  a.btn.btn-primary(href='#') Читать
+            .col-md-4
+              .card
+                .card-body
+                  //- Содержимое карточки 2
+            .col-md-4
+              .card
+                .card-body
+                  //- Содержимое карточки 3

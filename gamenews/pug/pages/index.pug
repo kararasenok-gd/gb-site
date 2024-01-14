@@ -1,0 +1,33 @@
+extends ../layouts/main-layout
+
+block content
+  //- Контент главной страницы
+  main
+    section.main-content.pt-5
+      .container
+        .row
+          .col-xxl-7.col-xl-6.col-lg-6.col-md-12
+            // Колонка для блока с текстом
+            .hero-section.pb-5
+              h1.hero-title.text-white.m-0
+                | Удивительный мир 
+                br
+                |  компьютерных игр
+              p.hero-desc.text-white.my-5
+                | Познакомьтесь с самыми популярными среди
+                br
+                |  геймеров онлайн-играми. Узнайте, что нового 
+                br
+                |  происходит в виртуальном мире.
+              a.btn.btn-purple.text-white(href='') Узнать больше
+          .col-xxl-5.col-xl-6.col-lg-6.col-md-12
+            // Колонка для карточек с играми
+            .card-games.d-flex.flex-column
+              .first-card-row.d-flex.justify-content-between
+                .gta-img
+                  img(src='./img/gta.png' alt='')
+                .fortnite-img
+                  img(src='./img/fort.png' alt='')
+              .dota-img.mt-4
+                img(src='./img/dota.png' alt='')
+            // // Колонка для карточек с играми
