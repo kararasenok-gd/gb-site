@@ -107,3 +107,41 @@ console.log(list)
 list.forEach(function(a, b){
     console.log(`${b} > ${a}`)
 })
+
+console.log("----------------03.03.2024-----------------")
+
+let chel = {
+    "aboba": "aboba",
+    "skoka_zhivet": 15,
+    "zavtrak": "chai",
+    "obed": "uutnenko",
+    "uzhin": "praniki to chau",
+    "lubit": "VOZDUH"
+}
+
+let zavtrak = {
+    "nothing": null,
+    "data": "segodnya",
+    "s": "s",
+    "age": NaN,
+    "expire": "Zavtra"
+}
+
+let ovechka = {
+    "name": null,
+    "food": "TRAVA",
+    "age": 1,
+    "hobby": null,
+    "lifetime": 14
+}
+
+let breakcore = {
+    play() {
+        alert("playing breakcore...")
+        window.open("https://youtu.be/S-GLSNMOIsc?si=3HktNnIMHI1Kql81", "_blank")
+    }
+}
+
+console.log(chel, chel.obed, chel.skoka_zhivet)
+console.log(zavtrak, zavtrak.data, zavtrak.expire)
+console.log(ovechka, ovechka.name, ovechka.age)
